@@ -53,3 +53,10 @@
 2026-11-19 13:24:31,626 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:24:31] "GET /static/script.js HTTP/1.1" 200 -
 2026-11-19 13:24:38,875 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:24:38] "POST /api/convert HTTP/1.1" 200 -
 2026-11-19 13:24:53,782 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:24:53] "POST /api/convert HTTP/1.1" 200 -
+2026-11-19 13:40:25,648 INFO werkzeug WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-19 13:40:25,648 INFO werkzeug Press CTRL+C to quit
+2026-11-19 13:40:27,615 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:40:27] "GET / HTTP/1.1" 200 -
+2026-11-19 13:40:27,714 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:40:27] "GET /static/script.js HTTP/1.1" 304 -
+2026-11-19 13:40:27,714 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:40:27] "GET /static/style.css HTTP/1.1" 304 -
+2026-11-19 13:40:34,569 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:40:34] "POST /api/convert HTTP/1.1" 200 -
