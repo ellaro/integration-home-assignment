@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gregorian to Hebrew Date Converter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<main class="page">
+    <div class="shell">
+        <p class="eyebrow">Hebcal Converter</p>
+        <h1>Gregorian to Hebrew Date</h1>
+        <p class="subtitle">Choose a Gregorian calendar date and receive its Hebrew date, date components, and associated events.</p>
+
+        <section class="card" aria-label="Date converter">
+            <form class="form" id="converter-form">
+                <div class="field">
+                    <label for="gregorian-date">Gregorian date</label>
+                    <input id="gregorian-date" name="date" type="date" required>
+                </div>
+                <button class="convert-button" id="convert-button" type="submit">Convert</button>
+                <div class="toggle-row">
+                    <label class="toggle-label" for="after-sunset">
+                        <input id="after-sunset" name="afterSunset" type="checkbox">
+                        <span class="toggle-track" aria-hidden="true">
+                            <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                                <circle cx="12" cy="12" r="4"></circle>
+                                <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
+                            </svg>
+                        </span>
+                        <span class="toggle-text" id="toggle-text">Day Time</span>
+                    </label>
+                </div>
+            </form>
+
+            <div class="loading" id="loading" role="status" aria-live="polite">
+                <span class="spinner" aria-hidden="true"></span>
+                <span>Converting date...</span>
+            </div>
+            <div class="status" id="error-message" role="alert"></div>
+
+            <div class="result" id="result" aria-live="polite">
+                <div class="result-label">Hebrew date</div>
+                <div class="hebrew-date" id="hebrew-date"></div>
+                <div class="parts">
+                    <div class="part"><small>Day</small><strong id="hebrew-day"></strong></div>
+                    <div class="part"><small>Month</small><strong id="hebrew-month"></strong></div>
+                    <div class="part"><small>Year</small><strong id="hebrew-year"></strong></div>
+                </div>
+                <div class="events" id="events"></div>
+            </div>
+        </section>
+    </div>
+</main>
+
+<script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</body>
+</html>

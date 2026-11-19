@@ -1,0 +1,55 @@
+2026-11-19 12:48:01,952 INFO werkzeug WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-19 12:48:01,952 INFO werkzeug Press CTRL+C to quit
+2026-11-19 12:48:01,954 INFO werkzeug  * Restarting with stat
+2026-11-19 12:48:02,389 WARNING werkzeug  * Debugger is active!
+2026-11-19 12:48:02,391 INFO werkzeug  * Debugger PIN: 145-691-172
+2026-11-19 12:48:14,199 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 12:48:14] "GET / HTTP/1.1" 200 -
+2026-11-19 12:48:22,715 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 12:48:22] "POST /api/convert HTTP/1.1" 200 -
+2026-11-19 12:49:57,082 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 12:49:57] "POST /api/convert HTTP/1.1" 200 -
+2026-11-19 13:01:57,957 INFO werkzeug WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-19 13:01:57,957 INFO werkzeug Press CTRL+C to quit
+2026-11-19 13:01:57,959 INFO werkzeug  * Restarting with stat
+2026-11-19 13:01:58,396 WARNING werkzeug  * Debugger is active!
+2026-11-19 13:01:58,399 INFO werkzeug  * Debugger PIN: 145-691-172
+2026-11-19 13:02:00,668 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:02:00] "GET / HTTP/1.1" 200 -
+2026-11-19 13:02:07,449 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:02:07] "POST /api/convert HTTP/1.1" 200 -
+2026-11-19 13:02:30,440 INFO werkzeug WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-19 13:02:30,440 INFO werkzeug Press CTRL+C to quit
+2026-11-19 13:02:33,257 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:02:33] "GET / HTTP/1.1" 200 -
+2026-11-19 13:02:36,716 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:02:36] "POST /api/convert HTTP/1.1" 200 -
+2026-11-19 13:05:32,680 INFO werkzeug WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-19 13:05:32,680 INFO werkzeug Press CTRL+C to quit
+2026-11-19 13:05:35,807 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:05:35] "GET / HTTP/1.1" 200 -
+2026-11-19 13:07:54,903 INFO werkzeug WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-19 13:07:54,903 INFO werkzeug Press CTRL+C to quit
+2026-11-19 13:07:56,444 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:07:56] "GET / HTTP/1.1" 200 -
+2026-11-19 13:10:09,624 INFO werkzeug WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-19 13:10:09,624 INFO werkzeug Press CTRL+C to quit
+2026-11-19 13:10:10,800 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:10:10] "GET / HTTP/1.1" 200 -
+2026-11-19 13:14:45,462 INFO werkzeug WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-19 13:14:45,462 INFO werkzeug Press CTRL+C to quit
+2026-11-19 13:14:46,758 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:14:46] "GET / HTTP/1.1" 200 -
+2026-11-19 13:15:04,184 INFO werkzeug WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-19 13:15:04,184 INFO werkzeug Press CTRL+C to quit
+2026-11-19 13:15:06,345 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:15:06] "GET / HTTP/1.1" 200 -
+2026-11-19 13:18:12,454 INFO werkzeug WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-19 13:18:12,454 INFO werkzeug Press CTRL+C to quit
+2026-11-19 13:18:13,934 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:18:13] "GET / HTTP/1.1" 200 -
+2026-11-19 13:18:49,103 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:18:49] "GET / HTTP/1.1" 200 -
+2026-11-19 13:24:28,542 INFO werkzeug WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-19 13:24:28,542 INFO werkzeug Press CTRL+C to quit
+2026-11-19 13:24:31,540 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:24:31] "GET / HTTP/1.1" 200 -
+2026-11-19 13:24:31,624 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:24:31] "GET /static/style.css HTTP/1.1" 200 -
+2026-11-19 13:24:31,626 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:24:31] "GET /static/script.js HTTP/1.1" 200 -
+2026-11-19 13:24:38,875 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:24:38] "POST /api/convert HTTP/1.1" 200 -
+2026-11-19 13:24:53,782 INFO werkzeug 127.0.0.1 - - [19/Nov/2026 13:24:53] "POST /api/convert HTTP/1.1" 200 -
